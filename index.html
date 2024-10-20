@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata-Kata Penyemangat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Buat Kata-Kata Penyemangat</h2>
+
+        <!-- Form untuk Input Nama dan Pilihan Kategori -->
+        <form id="encouragement-form">
+            <label for="name-input">Nama Anda</label>
+            <input type="text" id="name-input" placeholder="Masukkan nama Anda" required>
+
+            <button type="submit">Buat Kata-Kata Penyemangat</button>
+        </form>
+
+        <!-- Area untuk Menampilkan Kata-Kata Penyemangat -->
+        <div class="result-section">
+            <h3>Kata-Kata Penyemangat untuk <span id="output-name"></span></h3>
+            <p id="output-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
